@@ -1,7 +1,7 @@
-package com.example.threelevelcache.priority;
+package com.example.cache_generator.priority;
 
-import com.example.threelevelcache.cache.CacheContext;
-import com.example.threelevelcache.source.CacheSource;
+import com.example.cache_generator.cache.CacheContext;
+import com.example.cache_generator.source.CacheSource;
 
 /**
  * 缓存优先级。

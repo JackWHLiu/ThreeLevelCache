@@ -1,4 +1,4 @@
-package com.example.threelevelcache.cache;
+package com.example.cache_generator.cache;
 
 /**
  * 缓存需要的上下文环境。

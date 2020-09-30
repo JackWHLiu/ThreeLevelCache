@@ -1,4 +1,4 @@
-package com.example.threelevelcache.provider;
+package com.example.cache_generator.provider;
 
 import java.util.List;
 

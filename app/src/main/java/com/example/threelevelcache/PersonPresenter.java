@@ -1,14 +1,11 @@
 package com.example.threelevelcache;
 
-import com.example.threelevelcache.cache.PersonCache;
-
 import java.util.ArrayList;
 import java.util.List;
 
 public class PersonPresenter {
 
     public void fetchPersons(PersonView personView) {
-        //PersonCache也可以使用dagger依赖注入
         PersonCache cache = new PersonCache();
         List<Person> people = cache.fetchAll();
         personView.showPerson(people);

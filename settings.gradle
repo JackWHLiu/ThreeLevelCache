@@ -1,2 +1,4 @@
+include ':cache-generator'
+include ':cache-generator'
 include ':app'
 rootProject.name = "ThreeLevelCache"

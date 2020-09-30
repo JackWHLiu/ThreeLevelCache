@@ -1,6 +1,6 @@
 package com.example.threelevelcache;
 
-import com.example.threelevelcache.cache.ThreeLevelCache;
+import com.example.cache_generator.annotation.ThreeLevelCache;
 
 import dora.db.OrmTable;
 import dora.db.PrimaryKeyEntity;

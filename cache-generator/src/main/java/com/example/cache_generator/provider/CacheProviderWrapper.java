@@ -1,6 +1,6 @@
-package com.example.threelevelcache.provider;
+package com.example.cache_generator.provider;
 
-import androidx.annotation.CallSuper;
+//import androidx.annotation.CallSuper;
 
 import java.util.List;
 
@@ -15,7 +15,7 @@ public abstract class CacheProviderWrapper<V> implements CacheProvider<String, V
         this.mBase = provider;
     }
 
-    @CallSuper
+//    @CallSuper
     @Override
     public void add(V value) {
         if (mBase != null) {
@@ -23,7 +23,7 @@ public abstract class CacheProviderWrapper<V> implements CacheProvider<String, V
         }
     }
 
-    @CallSuper
+//    @CallSuper
     @Override
     public void addAll(List<V> values) {
         if (mBase != null) {
@@ -31,7 +31,7 @@ public abstract class CacheProviderWrapper<V> implements CacheProvider<String, V
         }
     }
 
-    @CallSuper
+//    @CallSuper
     @Override
     public void remove(V value) {
         if (mBase != null) {
@@ -39,7 +39,7 @@ public abstract class CacheProviderWrapper<V> implements CacheProvider<String, V
         }
     }
 
-    @CallSuper
+//    @CallSuper
     @Override
     public void removeAll(List<V> values) {
         if (mBase != null) {
@@ -47,7 +47,7 @@ public abstract class CacheProviderWrapper<V> implements CacheProvider<String, V
         }
     }
 
-    @CallSuper
+//    @CallSuper
     @Override
     public void save(V value) {
         if (mBase != null) {
@@ -55,7 +55,7 @@ public abstract class CacheProviderWrapper<V> implements CacheProvider<String, V
         }
     }
 
-    @CallSuper
+//    @CallSuper
     @Override
     public void saveAll(List<V> values) {
         if (mBase != null) {

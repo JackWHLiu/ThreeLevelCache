@@ -1,13 +1,13 @@
-package com.example.threelevelcache.provider;
+package com.example.cache_generator.provider;
 
 import java.util.List;
 
-public class MemoryProvider<V> extends CacheProviderWrapper<V> {
+public class DatabaseProvider<V> extends CacheProviderWrapper<V> {
 
-    public MemoryProvider() {
+    public DatabaseProvider() {
     }
 
-    public MemoryProvider(CacheProvider<String, V> provider) {
+    public DatabaseProvider(CacheProvider<String, V> provider) {
         super(provider);
     }
 

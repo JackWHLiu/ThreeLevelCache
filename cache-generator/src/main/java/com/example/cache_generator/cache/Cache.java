@@ -1,11 +1,11 @@
-package com.example.threelevelcache.cache;
+package com.example.cache_generator.cache;
 
-import com.example.threelevelcache.provider.CacheProvider;
-import com.example.threelevelcache.source.CacheSource;
+import com.example.cache_generator.provider.CacheProvider;
+import com.example.cache_generator.source.CacheSource;
 
 import java.util.List;
 
-public abstract class Cache<K, V> implements CacheSource<K, V> , CacheProvider<K, V> {
+public abstract class Cache<K, V> implements CacheSource<K, V>, CacheProvider<K, V> {
 
     @Override
     public void add(V value) {
